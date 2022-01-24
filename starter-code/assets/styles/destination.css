@@ -194,6 +194,10 @@ li {
   letter-spacing: 2px;
 }
 
+#main .select-planet .planet-links .planet-link-content:hover {
+  cursor: pointer;
+}
+
 #main .select-planet .planet-title-name {
   font-size: 4rem;
   letter-spacing: 5px;

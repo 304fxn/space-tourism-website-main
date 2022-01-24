@@ -11,9 +11,10 @@
       href="./assets/favicon-32x32.png"
     />
 
+    <title>Destination Moon | Space tourism website</title>
+
     <!--  primary nav styles -->
     <link rel="stylesheet" href="./assets/styles/destination.css" />
-    <title>Destination Titan | Space tourism website</title>
   </head>
   <body>
     <nav id="primary-nav" class="primary-nav">
@@ -41,7 +42,7 @@
             >
           </li>
           <li class="crew-nav">
-            <a href="./crew-specialist.html"
+            <a href="./crew-commander.html"
               ><span class="crew-number number-of-item-nav" aria-hidden="false"
                 >02</span
               >crew</a
@@ -67,44 +68,38 @@
     <p class="pick-destination"><span>01</span>Pick your destination</p>
     <main id="main">
       <section class="moon-destination-image">
-        <img src="./assets/destination/image-titan.webp" alt="" />
+        <img src="./assets/destination/image-moon.webp" alt="" />
       </section>
       <article class="select-planet">
         <ul class="planet-links">
           <li>
-            <a href="./destination-moon.html" class="planet-link-content"
-              >Moon</a
-            >
-            <a href="./destination-mars.html" class="planet-link-content"
-              >Mars</a
-            >
-            <a href="./destination-europa.html" class="planet-link-content"
-              >Europa</a
-            >
-            <a href="./destination-titan.html" class="planet-link-content"
-              >Titan</a
-            >
+            <span class="planet-link-content moon">Moon</span>
+            <span class="planet-link-content mars">Mars</span>
+            <span class="planet-link-content europa">Europa</span>
+            <span class="planet-link-content titan">Titan</span>
           </li>
         </ul>
-        <p class="planet-title-name">Titan</p>
+        <p class="planet-title-name">Moon</p>
         <p class="planet-description">
-          The only moon known to have a dense atmosphere other than Earth, Titan
-          is a home away from home (just a few hundred degrees colder!). As a
-          bonus, you get striking views of the Rings of Saturn.
+          See our planet as you’ve never seen it before. A perfect relaxing trip
+          away to help regain perspective and come back refreshed. While you’re
+          there, take in some history by visiting the Luna 2 and Apollo 11
+          landing sites.
         </p>
         <div class="end-line"></div>
         <section class="distance-travel_time">
           <div class="avg-distance">
             <span> Avg. distance </span>
-            <p>1.6 bil. km</p>
+            <p>384,400 km</p>
           </div>
           <div class="travel-time">
             <span>Est. travel time</span>
-            <p>7 years</p>
+            <p>3 days</p>
           </div>
         </section>
       </article>
     </main>
     <script src="./assets/scripts/primary-nav.js"></script>
+    <script src="./assets/scripts/destination-pages.js"></script>
   </body>
 </html>

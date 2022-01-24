@@ -39,6 +39,9 @@
         font-size: 0.85rem;
         letter-spacing: 2px;
       }
+      .planet-link-content:hover {
+        cursor: pointer;
+      }
     }
     .planet-title-name {
       font-size: 4rem;
@@ -121,12 +124,6 @@
   }
 }
 
-@media screen and (min-width: 769px) {
-}
-
-@media screen and (max-width: 768px) {
-}
-
 @media screen and (min-width: 591px) {
   .select-planet {
     .planet-links {
@@ -138,9 +135,6 @@
       }
     }
   }
-}
-
-@media screen and (max-width: 590px) {
 }
 
 @media screen and (max-width: 425px) {
