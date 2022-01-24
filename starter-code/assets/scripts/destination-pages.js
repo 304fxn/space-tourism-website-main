@@ -1,3 +1,4 @@
+// moon, mars, europa, titan - changed planet system
 const moon = {
   id: 1,
   image: "./assets/destination/image-moon.webp",
@@ -42,7 +43,7 @@ planetBtns.forEach(function (btn) {
   btn.addEventListener("click", function (e) {
     const planetName = e.currentTarget.classList;
     const id = e.target.dataset.id;
-    const element = document.getElementById("id");
+
     if (planetName.contains("moon")) {
       planetImage.src = moon.image;
       planetTitle.textContent = moon.title;

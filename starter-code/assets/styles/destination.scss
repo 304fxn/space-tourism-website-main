@@ -149,3 +149,20 @@
     }
   }
 }
+
+@media screen and (min-width: 769px) {
+  .planet-link-content {
+    position: relative;
+  }
+  .planet-link-content:hover:after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: -1rem;
+    background: $white;
+    border-radius: 10px;
+  }
+}
