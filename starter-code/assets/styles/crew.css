@@ -155,7 +155,7 @@ li {
 
 @media screen and (min-width: 769px) {
   body {
-    background-image: url("../home/background-home-desktop.jpg");
+    background-image: url("../destination/background-destination-desktop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -163,7 +163,7 @@ li {
 
 @media screen and (min-width: 561px) and (max-width: 768px) {
   body {
-    background-image: url("../home/background-home-tablet.jpg");
+    background-image: url("../destination/background-destination-tablet.jpg");
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -171,97 +171,8 @@ li {
 
 @media screen and (max-width: 560px) {
   body {
-    background-image: url("../home/background-home-mobile.jpg");
+    background-image: url("../destination/background-destination-mobile.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-  }
-}
-
-@media screen and (min-width: 769px) {
-  #main .explore {
-    width: 10em;
-    height: 10em;
-    font-size: 2rem;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  #main {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  #main .explore {
-    width: 10em;
-    height: 10em;
-    margin-bottom: 5rem;
-    font-size: 2em;
-  }
-}
-
-#main {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 10%;
-}
-
-#main .main-article {
-  max-width: 31em;
-}
-
-#main .main-article .header-4 {
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #ccc;
-}
-
-#main .main-article .header-1 {
-  letter-spacing: 3px;
-  margin: 1.7rem 0 3rem;
-  font-family: "Lora", serif;
-}
-
-#main .main-article .paragraph-main {
-  line-height: 2;
-  color: #ccc;
-}
-
-#main .explore {
-  background: #fff;
-  border-radius: 100%;
-  margin-top: 8rem;
-  font-family: "Lora", serif;
-  color: #000;
-  letter-spacing: 3px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-@media screen and (max-width: 590px) {
-  .header-4 {
-    font-size: 4vw;
-  }
-  .header-1 {
-    font-size: 25vw;
-  }
-  .paragraph-main {
-    font-size: 3vw;
-  }
-  .explore {
-    width: 5vw;
-    height: 5vw;
-  }
-}
-
-@media screen and (min-width: 591px) {
-  .header-4 {
-    font-size: 2rem;
-  }
-  .header-1 {
-    font-size: 10rem;
-  }
-  .paragraph-main {
-    font-size: 1.125rem;
   }
 }

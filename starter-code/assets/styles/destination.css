@@ -122,6 +122,37 @@ li {
   list-style: none;
 }
 
+.pick-destination {
+  font-size: 1.25rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.pick-destination span {
+  color: #666;
+  margin-right: 1rem;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 1025px) {
+  .pick-destination {
+    font-size: 1.8rem;
+    margin-left: 9%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .pick-destination {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .pick-destination {
+    font-size: 4.5vw;
+  }
+}
+
 @media screen and (min-width: 769px) {
   body {
     background-image: url("../destination/background-destination-desktop.jpg");
@@ -144,18 +175,6 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
   }
-}
-
-.pick-destination {
-  font-size: 1.25rem;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-}
-
-.pick-destination span {
-  color: #666;
-  margin-right: 1rem;
-  font-weight: 700;
 }
 
 #main {
@@ -220,10 +239,6 @@ li {
 }
 
 @media screen and (min-width: 1025px) {
-  .pick-destination {
-    font-size: 1.8rem;
-    margin-left: 9%;
-  }
   #main {
     justify-content: space-around;
   }
@@ -236,9 +251,6 @@ li {
 }
 
 @media screen and (max-width: 1024px) {
-  .pick-destination {
-    text-align: center;
-  }
   #main {
     flex-direction: column;
     justify-content: center;
@@ -270,9 +282,6 @@ li {
 }
 
 @media screen and (max-width: 425px) {
-  .pick-destination {
-    font-size: 4.5vw;
-  }
   #main .select-planet .planet-links {
     font-size: 0.5vw;
   }

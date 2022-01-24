@@ -1,2 +1,0 @@
-mYname is = aaaaaaaaaa
-bbbbbbb

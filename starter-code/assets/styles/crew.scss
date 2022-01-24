@@ -1,0 +1,26 @@
+@import "./primary-navigation";
+@import "./_reset";
+
+// background image depeinding on width
+@media screen and (min-width: 769px) {
+  body {
+    background-image: url("../destination/background-destination-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 561px) and (max-width: 768px) {
+  body {
+    background-image: url("../destination/background-destination-tablet.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 560px) {
+  body {
+    background-image: url("../destination/background-destination-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+// end of background image depeinding on width

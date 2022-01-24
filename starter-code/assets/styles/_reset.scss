@@ -26,3 +26,32 @@ a {
 li {
   list-style: none;
 }
+
+.pick-destination {
+  font-size: 1.25rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  span {
+    color: #666;
+    margin-right: 1rem;
+    font-weight: 700;
+  }
+}
+
+@media screen and(min-width:1025px) {
+  .pick-destination {
+    font-size: 1.8rem;
+    margin-left: 9%;
+  }
+}
+
+@media screen and(max-width:1024px) {
+  .pick-destination {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 425px) {
+  .pick-destination {
+    font-size: 4.5vw;
+  }
+}
