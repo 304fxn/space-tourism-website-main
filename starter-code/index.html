@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./assets/styles/index.css" />
+    <!-- end stylesheet -->
+    <title>Home | Space tourism website</title>
+  </head>
+  <body>
+    <nav id="primary-nav" class="primary-nav">
+      <div class="logo">
+        <a href="index.html">
+          <img src="./assets/shared/logo.svg" alt="Space Logo" />
+        </a>
+      </div>
+      <section class="navigation" data-visible="false">
+        <ul class="nav-links">
+          <li class="home-nav">
+            <a href="index.html"
+              ><span class="home-number number-of-item-nav" aria-hidden="false"
+                >00</span
+              >home</a
+            >
+          </li>
+          <li class="destination-nav">
+            <a href="./destination-moon.html"
+              ><span
+                class="destination-number number-of-item-nav"
+                aria-hidden="false"
+                >01</span
+              >destination</a
+            >
+          </li>
+          <li class="crew-nav">
+            <a href="./crew-specialist.html"
+              ><span class="crew-number number-of-item-nav" aria-hidden="false"
+                >02</span
+              >crew</a
+            >
+          </li>
+          <li class="technology-nav">
+            <a href="./technology-vehicle.html"
+              ><span
+                class="technology-number number-of-item-nav"
+                aria-hidden="false"
+                >03</span
+              >technology</a
+            >
+          </li>
+        </ul>
+      </section>
+      <div class="hamburger-menu" aria-expanded="false">
+        <!--<img src="../starter-code/assets/shared/icon-hamburger.svg" alt="" />
+        -->
+      </div>
+    </nav>
+
+    <main id="main">
+      <article class="main-article">
+        <p class="header-4">So, you want to travel to</p>
+        <p class="header-1">SPACE</p>
+        <p class="paragraph-main">
+          Let’s face it; if you want to go to space, you might as well genuinely
+          go to outer space and not hover kind of on the edge of it. Well sit
+          back, and relax because we’ll give you a truly out of this world
+          experience!
+        </p>
+      </article>
+      <a href="./destination-moon.html" class="explore">EXPLORE</a>
+    </main>
+
+    <script src="./assets/scripts/primary-nav.js"></script>
+  </body>
+</html>

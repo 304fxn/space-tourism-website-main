@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <!--  primary nav styles -->
+    <link rel="stylesheet" href="./assets/styles/destination.css" />
+    <title>Destination Europa | Space tourism website</title>
+  </head>
+  <body>
+    <nav id="primary-nav" class="primary-nav">
+      <div class="logo">
+        <a href="index.html">
+          <img src="./assets/shared/logo.svg" alt="Space Logo" />
+        </a>
+      </div>
+      <section class="navigation" data-visible="false">
+        <ul class="nav-links">
+          <li class="home-nav">
+            <a href="index.html"
+              ><span class="home-number number-of-item-nav" aria-hidden="false"
+                >00</span
+              >home</a
+            >
+          </li>
+          <li class="destination-nav">
+            <a href="./destination-moon.html"
+              ><span
+                class="destination-number number-of-item-nav"
+                aria-hidden="false"
+                >01</span
+              >destination</a
+            >
+          </li>
+          <li class="crew-nav">
+            <a href="./crew-specialist.html"
+              ><span class="crew-number number-of-item-nav" aria-hidden="false"
+                >02</span
+              >crew</a
+            >
+          </li>
+          <li class="technology-nav">
+            <a href="./technology-vehicle.html"
+              ><span
+                class="technology-number number-of-item-nav"
+                aria-hidden="false"
+                >03</span
+              >technology</a
+            >
+          </li>
+        </ul>
+      </section>
+      <div class="hamburger-menu" aria-expanded="false">
+        <!--<img src="../starter-code/assets/shared/icon-hamburger.svg" alt="" />
+        -->
+      </div>
+    </nav>
+
+    <p class="pick-destination"><span>01</span>Pick your destination</p>
+    <main id="main">
+      <section class="moon-destination-image">
+        <img src="./assets/destination/image-europa.webp" alt="" />
+      </section>
+      <article class="select-planet">
+        <ul class="planet-links">
+          <li>
+            <a href="./destination-moon.html" class="planet-link-content"
+              >Moon</a
+            >
+            <a href="./destination-mars.html" class="planet-link-content"
+              >Mars</a
+            >
+            <a href="./destination-europa.html" class="planet-link-content"
+              >Europa</a
+            >
+            <a href="./destination-titan.html" class="planet-link-content"
+              >Titan</a
+            >
+          </li>
+        </ul>
+        <p class="planet-title-name">Europa</p>
+        <p class="planet-description">
+          The smallest of the four Galilean moons orbiting Jupiter, Europa is a
+          winter lover’s dream. With an icy surface, it’s perfect for a bit of
+          ice skating, curling, hockey, or simple relaxation in your snug
+          wintery cabin.
+        </p>
+        <div class="end-line"></div>
+        <section class="distance-travel_time">
+          <div class="avg-distance">
+            <span> Avg. distance </span>
+            <p>628 mil. km</p>
+          </div>
+          <div class="travel-time">
+            <span>Est. travel time</span>
+            <p>3 years</p>
+          </div>
+        </section>
+      </article>
+    </main>
+    <script src="./assets/scripts/primary-nav.js"></script>
+  </body>
+</html>

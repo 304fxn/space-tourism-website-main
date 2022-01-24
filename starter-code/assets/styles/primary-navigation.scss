@@ -1,0 +1,126 @@
+// Navigation colors
+$white: #fff;
+$background-colorNav: rgba(255, 255, 255, 0.05);
+//
+
+// navigation main property
+#primary-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    margin: 4rem;
+  }
+
+  .navigation {
+    background: $background-colorNav;
+    backdrop-filter: blur(1rem);
+
+    display: flex;
+    align-items: center;
+
+    .nav-links {
+      display: flex;
+      gap: 3rem;
+
+      li {
+        list-style: none;
+        a {
+          position: relative; // for border bottom when is hover
+          text-transform: uppercase;
+          letter-spacing: 2px;
+
+          // numbers of navigation list style
+          .number-of-item-nav {
+            font-weight: 700;
+            margin-right: 0.5rem;
+          }
+          //
+        }
+      }
+    }
+  }
+}
+// end main navigation property
+
+@media screen and (min-width: 769px) {
+  .hamburger-menu {
+    // don't show hamburger menu when width is more 769px
+    display: none;
+  }
+  .navigation {
+    justify-content: center;
+    padding-inline: clamp(2rem, 10vh, 10rem);
+    padding-block: 2rem;
+  }
+  .nav-links li {
+    a:hover:after,
+    a:active:after {
+      // border bottom hover custom
+      content: "";
+      width: 100%;
+      height: 3px;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      margin-bottom: -2rem;
+      background: $white;
+      border-radius: 10px;
+    }
+  }
+}
+
+// don't show numbers of navigation list style when rezolution is this
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .number-of-item-nav {
+    display: none;
+  }
+}
+//
+
+// mobile & tablet mode
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .logo {
+    z-index: 999;
+  }
+
+  // hamburger-menu button
+  .hamburger-menu {
+    display: block;
+    margin-right: 10%;
+    z-index: 999;
+    cursor: pointer;
+    background: url("../shared/icon-hamburger.svg");
+    width: 20px;
+    height: 21px;
+  }
+  .hamburger-menu[aria-expanded="true"] {
+    background: url("../shared/icon-close.svg");
+  }
+  // end of hamburger-menu
+
+  // glass navigation mobile/tablet
+  .navigation {
+    position: fixed;
+    inset: 0 0 0 30%;
+
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+
+    padding-inline: clamp(1rem, 2rem, 10rem);
+
+    .nav-links {
+      position: relative;
+      flex-direction: column;
+    }
+  }
+  // mobile & tablet menu is expanded
+  .navigation[data-visible="true"] {
+    transform: translateX(0%);
+  }
+}
+// end mobile & tablet mode
