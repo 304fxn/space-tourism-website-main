@@ -43,7 +43,6 @@ planetBtns.forEach(function (btn) {
   btn.addEventListener("click", function (e) {
     const planetName = e.currentTarget.classList;
     const id = e.target.dataset.id;
-
     if (planetName.contains("moon")) {
       planetImage.src = moon.image;
       planetTitle.textContent = moon.title;

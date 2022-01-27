@@ -24,3 +24,143 @@
   }
 }
 // end of background image depeinding on width
+
+#main {
+  display: flex;
+  align-items: center;
+
+  .people-info {
+    display: flex;
+    flex-direction: column;
+    .people-info-content {
+      .p-job {
+        color: #5c5c5c;
+        font-weight: 400;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+      .p-name {
+        font-weight: 400;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin: 1.5rem 0 2rem;
+      }
+      .p-desc {
+        color: #d0d6f9;
+        line-height: 1.8;
+        letter-spacing: 1px;
+      }
+    }
+    .peoples-carousel-ex {
+      .peoples-carousel {
+        display: flex;
+        .ppp2 {
+          width: 20px;
+          height: 20px;
+          @media screen and (max-width: 590px) {
+            width: 15px;
+            height: 15px;
+          }
+          background: rgba(255, 255, 255, 0.2);
+          margin-right: 1rem;
+          border-radius: 100%;
+          &:hover {
+            cursor: pointer;
+            background: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+// desktop mode
+@media screen and (min-width: 1025px) {
+  #main {
+    flex-direction: row;
+    justify-content: space-around;
+
+    .people-info {
+      width: 35%;
+      height: 30rem;
+      justify-content: space-between;
+      .people-info-content {
+        .p-job {
+          font-size: 2vw;
+        }
+        .p-name {
+          font-size: 3.75vw;
+        }
+        .p-desc {
+          width: 80%;
+          font-size: 1vw;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #main {
+    margin-top: 10%;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    .people-info {
+      text-align: center;
+      align-items: center;
+      .peoples-carousel-ex {
+        margin-top: 2rem;
+        .peoples-carousel {
+          .ppp2 {
+            margin-right: 0;
+            margin-inline: 0.5rem;
+          }
+        }
+      }
+    }
+    .p-image {
+      margin-top: 10%;
+      max-width: 90%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+// tablet & mobile mode
+@media screen and(min-width: 425px) and (max-width: 1024px) {
+  .people-info {
+    .people-info-content {
+      .p-job {
+        font-size: 3.5vw;
+      }
+      .p-name {
+        font-size: 5vw;
+      }
+      .p-desc {
+        font-size: 2.5vw;
+        padding-inline: 10%;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 425px) {
+  #main {
+    flex-direction: column-reverse;
+    .people-info {
+      flex-direction: column-reverse;
+      .peoples-carousel-ex {
+        margin-bottom: 5%;
+      }
+    }
+    .p-image {
+      .end-image-mobile-mode {
+        width: 100%;
+        height: 1px;
+        background: rgba(255, 255, 255, 0.2);
+      }
+    }
+  }
+}

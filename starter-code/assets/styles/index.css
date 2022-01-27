@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
 #primary-nav {
   display: flex;
   justify-content: space-between;
@@ -124,7 +125,7 @@ li {
 
 .pick-destination {
   font-size: 1.25rem;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   text-transform: uppercase;
 }
 
@@ -141,14 +142,15 @@ li {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 426px) and (max-width: 1024px) {
   .pick-destination {
-    text-align: center;
+    margin-left: 5%;
   }
 }
 
 @media screen and (max-width: 425px) {
   .pick-destination {
+    text-align: center;
     font-size: 4.5vw;
   }
 }
