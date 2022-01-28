@@ -89,6 +89,7 @@
 
   // explore ball
   .explore {
+    z-index: -1;
     background: $white;
     border-radius: 100%;
     margin-top: 8rem;
