@@ -194,10 +194,10 @@ li {
     text-align: center;
   }
   #main .explore {
-    width: 10em;
-    height: 10em;
+    width: 10rem;
+    height: 10rem;
     margin-bottom: 5rem;
-    font-size: 2em;
+    font-size: 2rem;
   }
 }
 
@@ -251,8 +251,9 @@ li {
     font-size: 3vw;
   }
   .explore {
-    width: 2vw;
-    height: 2vw;
+    width: 3vw;
+    height: 3vw;
+    font-size: 1vw;
   }
 }
 
