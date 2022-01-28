@@ -3,7 +3,7 @@ $white: #fff;
 // $background-colorNav: hsl(0, 0%, 100% / 0.1);
 //$background-colorNav: rgba(255, 255, 255, 0.05);
 //$background-colorNav: rgba(255, 255, 255, 0.5);
-$background-colorNav: rgba(0, 0, 0, 0.5);
+$background-colorNav: #000;
 
 //
 
@@ -20,7 +20,7 @@ $background-colorNav: rgba(0, 0, 0, 0.5);
 
   .navigation {
     background: $background-colorNav;
-    backdrop-filter: blur(100%);
+    backdrop-filter: blur(1rem);
 
     display: flex;
     align-items: center;
