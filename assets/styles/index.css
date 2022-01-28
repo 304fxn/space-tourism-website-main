@@ -193,11 +193,14 @@ li {
     align-items: center;
     text-align: center;
   }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 591px) {
   #main .explore {
     width: 10rem;
     height: 10rem;
     margin-bottom: 5rem;
-    font-size: 2rem;
+    font-size: 3vw;
   }
 }
 
@@ -251,9 +254,9 @@ li {
     font-size: 3vw;
   }
   .explore {
-    width: 3vw;
-    height: 3vw;
-    font-size: 1vw;
+    width: 30vw;
+    height: 30vw;
+    font-size: 3vw;
   }
 }
 

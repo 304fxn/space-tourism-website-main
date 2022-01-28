@@ -72,7 +72,7 @@ $background-colorNav: rgba(255, 255, 255, 0.05);
   }
 }
 
-// don't show numbers of navigation list style when rezolution is this
+// don't show numbers of navigation list style when resolution is this
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .number-of-item-nav {
     display: none;

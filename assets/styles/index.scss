@@ -44,11 +44,13 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    .explore {
-      width: 10rem;
-      height: 10rem;
-      margin-bottom: 5rem;
-      font-size: 2rem;
+    @media screen and(min-width:591px) {
+      .explore {
+        width: 10rem;
+        height: 10rem;
+        margin-bottom: 5rem;
+        font-size: 3vw;
+      }
     }
   }
 }
@@ -112,9 +114,9 @@
     font-size: 3vw;
   }
   .explore {
-    width: 3vw;
-    height: 3vw;
-    font-size: 1vw;
+    width: 30vw;
+    height: 30vw;
+    font-size: 3vw;
   }
 }
 
