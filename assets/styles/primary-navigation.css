@@ -9,7 +9,7 @@
 }
 
 #primary-nav .navigation {
-  background: white;
+  background: hsl(0, 0%, 100% / 0.1);
   backdrop-filter: blur(1rem);
   display: flex;
   align-items: center;
