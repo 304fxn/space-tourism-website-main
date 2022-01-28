@@ -20,7 +20,7 @@ $background-colorNav: rgba(0, 0, 0, 0.5);
 
   .navigation {
     background: $background-colorNav;
-    backdrop-filter: blur(1rem);
+    backdrop-filter: blur(100%);
 
     display: flex;
     align-items: center;
