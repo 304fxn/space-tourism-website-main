@@ -12,7 +12,7 @@
 }
 
 #primary-nav .navigation {
-  background: rgba(255, 255, 255, 0.05);
+  background: white;
   backdrop-filter: blur(1rem);
   display: flex;
   align-items: center;
@@ -251,8 +251,8 @@ li {
     font-size: 3vw;
   }
   .explore {
-    width: 5vw;
-    height: 5vw;
+    width: 2vw;
+    height: 2vw;
   }
 }
 
