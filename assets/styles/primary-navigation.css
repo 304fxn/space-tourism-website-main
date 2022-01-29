@@ -11,7 +11,11 @@
 
 #primary-nav .navigation {
   background: rgba(255, 255, 255, 0.055);
-  backdrop-filter: blur(2rem);
+  backdrop-filter: blur(1rem);
+  -webkit-backdrop-filter: blur(1rem);
+  -moz-backdrop-filter: blur(1rem);
+  -o-backdrop-filter: blur(1rem);
+  -ms-backdrop-filter: blur(1rem);
   display: flex;
   align-items: center;
 }
