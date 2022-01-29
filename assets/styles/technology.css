@@ -256,7 +256,11 @@ li {
     width: 90%;
   }
   #technology-main .imgImage {
-    background: url("../technology/image-launch-vehicle-landscape.jpg");
+    width: 100%;
+    height: 527px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background: url("../technology/image-launch-vehicle-portrait.jpg");
   }
 }
 
@@ -279,7 +283,11 @@ li {
     margin-inline: 1rem;
   }
   #technology-main .imgImage {
-    background: url("../technology/image-launch-vehicle-landscape.jpg");
+    width: 100%;
+    height: 310px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../technology/image-launch-vehicle-landscape.jpg");
   }
 }
 
