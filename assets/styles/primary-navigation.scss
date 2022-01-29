@@ -1,20 +1,8 @@
 // Navigation colors
 $white: #fff;
-// $background-colorNav: hsl(0, 0%, 100% / 0.1);
 $background-colorNav: rgba(255, 255, 255, 0.05);
-// $background-colorNav: hsl(0, 0%, 100% / 0.1);
-// $background-colorNav: #000;
 
 //
-
-// // supports backdrop filter blur
-// @supports (backdrop-filter: blur(1rem)) {
-//   .navigation {
-//     background: hsl(0 0% 100% / 0.1);
-//     backdrop-filter: blur(1rem);
-//   }
-// }
-// //
 
 // navigation main property
 #primary-nav {
@@ -27,10 +15,18 @@ $background-colorNav: rgba(255, 255, 255, 0.05);
     margin: 4rem;
   }
 
+  @supports (-webkit-backdrop-filter: blur(1rem)) or
+    (backdrop-filter: blur(1rem)) {
+    .navigation {
+      -webkit-backdrop-filter: blur(1rem);
+      backdrop-filter: blur(1rem);
+    }
+  }
+
   .navigation {
     background: $background-colorNav;
-    backdrop-filter: blur(1rem);
-    -webkit-backdrop-filter: blur(1rem);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
 
     display: flex;
     align-items: center;

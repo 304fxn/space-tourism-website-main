@@ -1,7 +1,7 @@
 @import "./primary-navigation";
 @import "./_reset";
 
-// background image depeinding on width
+// background image depending on width
 @media screen and (min-width: 769px) {
   body {
     background-image: url("../crew/background-crew-desktop.jpg");
@@ -23,7 +23,7 @@
     background-repeat: no-repeat;
   }
 }
-// end of background image depeinding on width
+// end of background image depending on width
 
 #main {
   display: flex;
