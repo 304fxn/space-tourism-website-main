@@ -80,7 +80,7 @@
 // desktop mode
 @media screen and (min-width: 1025px) {
   #technology-main {
-    justify-content: right;
+    justify-content: center;
     .step-by-step {
       //max-width: 30%;
       justify-content: center;
@@ -95,10 +95,8 @@
       }
     }
     .imgImage {
-      width: 100%;
+      width: 514px;
       height: 527px;
-      background-size: contain;
-      background-repeat: no-repeat;
       background: url("../technology/image-launch-vehicle-portrait.jpg");
     }
   }

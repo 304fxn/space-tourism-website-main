@@ -241,7 +241,7 @@ li {
 
 @media screen and (min-width: 1025px) {
   #technology-main {
-    justify-content: right;
+    justify-content: center;
   }
   #technology-main .step-by-step {
     justify-content: center;
@@ -256,10 +256,8 @@ li {
     width: 90%;
   }
   #technology-main .imgImage {
-    width: 100%;
+    width: 514px;
     height: 527px;
-    background-size: contain;
-    background-repeat: no-repeat;
     background: url("../technology/image-launch-vehicle-portrait.jpg");
   }
 }
