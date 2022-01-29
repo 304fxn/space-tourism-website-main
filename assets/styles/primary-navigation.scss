@@ -15,8 +15,7 @@ $background-colorNav: rgba(255, 255, 255, 0.05);
     margin: 4rem;
   }
 
-  @supports (-webkit-backdrop-filter: blur(1rem)) or
-    (backdrop-filter: blur(1rem)) {
+  @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
     .navigation {
       -webkit-backdrop-filter: blur(1rem);
       backdrop-filter: blur(1rem);
@@ -25,8 +24,8 @@ $background-colorNav: rgba(255, 255, 255, 0.05);
 
   .navigation {
     background: $background-colorNav;
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(1rem);
+    -webkit-backdrop-filter: blur(1rem);
 
     display: flex;
     align-items: center;

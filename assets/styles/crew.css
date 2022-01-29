@@ -12,7 +12,7 @@
   margin: 4rem;
 }
 
-@supports (backdrop-filter: blur(1rem)) {
+@supports (backdrop-filter: none) {
   #primary-nav .navigation {
     backdrop-filter: blur(1rem);
   }
@@ -20,8 +20,8 @@
 
 #primary-nav .navigation {
   background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(1rem);
+  -webkit-backdrop-filter: blur(1rem);
   display: flex;
   align-items: center;
 }
