@@ -26,6 +26,7 @@ $background-colorNav: rgba(255, 255, 255, 0.05);
     background: $background-colorNav;
     backdrop-filter: blur(1rem);
     -webkit-backdrop-filter: blur(1rem);
+    -moz-backdrop-filter: blur(1rem);
 
     display: flex;
     align-items: center;
