@@ -114,6 +114,10 @@
       text-align: center;
       margin-bottom: 5rem;
 
+      .planet-link-content {
+        margin-inline: 1rem;
+      }
+
       .distance-travel_time {
         flex-direction: column;
         .avg-distance {
