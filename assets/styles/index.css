@@ -13,7 +13,7 @@
 }
 
 #primary-nav .navigation {
-  background: #000;
+  background: rgba(255, 255, 255, 0.055);
   backdrop-filter: blur(1rem);
   display: flex;
   align-items: center;
