@@ -20,7 +20,7 @@ $background-colorNav: hsla(0, 0%, 100%, 0.055);
 
   .navigation {
     background: $background-colorNav;
-    backdrop-filter: blur(1rem);
+    backdrop-filter: blur(2rem);
 
     display: flex;
     align-items: center;
