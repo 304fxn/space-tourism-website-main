@@ -1,0 +1,144 @@
+@import "./primary-navigation";
+@import "./_reset";
+
+// background image depending on width
+@media screen and (min-width: 769px) {
+  body {
+    background-image: url("../technology/background-technology-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 561px) and (max-width: 768px) {
+  body {
+    background-image: url("../technology/background-technology-tablet.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 560px) {
+  body {
+    background-image: url("../technology/background-technology-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+// end of background image depending on width
+
+// #technology-main main setting
+#technology-main {
+  display: flex;
+  align-items: center;
+  font-family: "Bellefair", serif;
+  margin-top: 5%;
+  // text article main section
+  .step-by-step {
+    display: flex;
+    // steps section
+    .steps {
+      .step-number {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 5rem;
+        height: 5rem;
+        margin-bottom: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 100%;
+        font-size: 2rem;
+        &:hover {
+          cursor: pointer;
+          color: #000;
+          background: #fff;
+        }
+      }
+    }
+    .text-steps {
+      .header-6 {
+        font-size: 1rem;
+        font-weight: 400;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #d0d6f9;
+      }
+      .header-2 {
+        font-size: 3.5rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin: 1rem 0;
+      }
+      .p-desc {
+        font-size: 1.125rem;
+        line-height: 2;
+        color: #d0d6f9;
+        font-family: "Roboto", sans-serif;
+      }
+    }
+  }
+}
+
+// desktop mode
+@media screen and (min-width: 1025px) {
+  #technology-main {
+    justify-content: right;
+    .step-by-step {
+      //max-width: 30%;
+      justify-content: center;
+      .steps {
+        margin-right: 5%;
+      }
+      .text-steps {
+        width: 40%;
+        .p-desc {
+          width: 90%;
+        }
+      }
+    }
+    .imgImage {
+      background: url("../technology/image-launch-vehicle-landscape.jpg");
+    }
+  }
+}
+
+// mobile and tablet mode
+@media screen and (max-width: 1024px) {
+  #technology-main {
+    text-align: center;
+    flex-direction: column-reverse;
+    .step-by-step {
+      flex-direction: column;
+      .steps {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 5% 0 3%;
+        .step-number {
+          margin-inline: 1rem;
+        }
+      }
+    }
+    .imgImage {
+      background: url("../technology/image-launch-vehicle-landscape.jpg");
+    }
+  }
+}
+
+@media screen and(min-width:426px) and (max-width: 1024px) {
+  #technology-main {
+    .text-steps {
+      .p-desc {
+        padding-inline: 20%;
+      }
+    }
+  }
+}
+@media screen and(max-width:425px) {
+  #technology-main {
+    .text-steps {
+      .p-desc {
+        padding-inline: 5%;
+      }
+    }
+  }
+}
