@@ -214,20 +214,20 @@ li {
   background: #fff;
 }
 
-#technology-main .step-by-step .text-steps .header-6 {
+#technology-main .step-by-step .text-steps .technology-header-6 {
   font-weight: 400;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #d0d6f9;
 }
 
-#technology-main .step-by-step .text-steps .header-2 {
+#technology-main .step-by-step .text-steps .technology-header-2 {
   font-weight: 400;
   text-transform: uppercase;
   margin: 1rem 0;
 }
 
-#technology-main .step-by-step .text-steps .p-desc {
+#technology-main .step-by-step .text-steps .technology-p-desc {
   line-height: 2;
   color: #d0d6f9;
   font-family: "Roboto", sans-serif;
@@ -251,13 +251,13 @@ li {
   #technology-main .step-by-step .text-steps {
     width: 40%;
   }
-  #technology-main .step-by-step .text-steps .text-steps .header-6 {
+  #technology-main .step-by-step .text-steps .technology-header-6 {
     font-size: 1rem;
   }
-  #technology-main .step-by-step .text-steps .text-steps .header-2 {
+  #technology-main .step-by-step .text-steps .technology-header-2 {
     font-size: 3.5rem;
   }
-  #technology-main .step-by-step .text-steps .text-steps .p-desc {
+  #technology-main .step-by-step .text-steps .technology-p-desc {
     font-size: 1.125rem;
     width: 90%;
   }
@@ -299,19 +299,19 @@ li {
 }
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {
-  #technology-main .text-steps .p-desc {
+  #technology-main .text-steps .technology-p-desc {
     padding-inline: 20%;
   }
 }
 
 @media screen and (max-width: 425px) {
-  #technology-main .text-steps .header-6 {
+  #technology-main .text-steps .technology-header-6 {
     font-size: 1rem;
   }
-  #technology-main .text-steps .header-2 {
-    font-size: 2.5rem;
+  #technology-main .text-steps .technology-header-2 {
+    font-size: 2.2rem;
   }
-  #technology-main .text-steps .p-desc {
+  #technology-main .text-steps .technology-p-desc {
     font-size: 0.8rem;
     padding-inline: 5%;
     margin-bottom: 10%;

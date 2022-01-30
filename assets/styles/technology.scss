@@ -51,18 +51,18 @@
       }
     }
     .text-steps {
-      .header-6 {
+      .technology-header-6 {
         font-weight: 400;
         letter-spacing: 1px;
         text-transform: uppercase;
         color: #d0d6f9;
       }
-      .header-2 {
+      .technology-header-2 {
         font-weight: 400;
         text-transform: uppercase;
         margin: 1rem 0;
       }
-      .p-desc {
+      .technology-p-desc {
         line-height: 2;
         color: #d0d6f9;
         font-family: "Roboto", sans-serif;
@@ -88,17 +88,16 @@
       }
       .text-steps {
         width: 40%;
-        .text-steps {
-          .header-6 {
-            font-size: 1rem;
-          }
-          .header-2 {
-            font-size: 3.5rem;
-          }
-          .p-desc {
-            font-size: 1.125rem;
-            width: 90%;
-          }
+
+        .technology-header-6 {
+          font-size: 1rem;
+        }
+        .technology-header-2 {
+          font-size: 3.5rem;
+        }
+        .technology-p-desc {
+          font-size: 1.125rem;
+          width: 90%;
         }
       }
     }
@@ -144,7 +143,7 @@
 @media screen and(min-width:426px) and (max-width: 1024px) {
   #technology-main {
     .text-steps {
-      .p-desc {
+      .technology-p-desc {
         padding-inline: 20%;
       }
     }
@@ -153,13 +152,13 @@
 @media screen and(max-width:425px) {
   #technology-main {
     .text-steps {
-      .header-6 {
+      .technology-header-6 {
         font-size: 1rem;
       }
-      .header-2 {
-        font-size: 2.5rem;
+      .technology-header-2 {
+        font-size: 2.2rem;
       }
-      .p-desc {
+      .technology-p-desc {
         font-size: 0.8rem;
         padding-inline: 5%;
         margin-bottom: 10%;
