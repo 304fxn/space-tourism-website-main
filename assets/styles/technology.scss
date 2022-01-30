@@ -43,7 +43,6 @@
         margin-bottom: 1rem;
         border: 1px solid #ccc;
         border-radius: 100%;
-        font-size: 2rem;
         &:hover {
           cursor: pointer;
           color: #000;
@@ -85,6 +84,7 @@
       .steps {
         margin-right: 5%;
         .step-number {
+          font-size: 2rem;
           width: 5rem;
           height: 5rem;
         }
@@ -121,6 +121,7 @@
           margin-inline: 1rem;
           width: 3.125rem;
           height: 3.125rem;
+          font-size: 1.25rem;
         }
       }
     }
